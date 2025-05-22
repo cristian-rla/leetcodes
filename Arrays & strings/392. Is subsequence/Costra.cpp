@@ -6,8 +6,6 @@ public:
             if (i == s.size()) return true;
             if (s[i] == ch) i++; 
         }
-        if (i == s.size()) return true;
-
-        return false;
+        return (i == s.size());
     }
 };
